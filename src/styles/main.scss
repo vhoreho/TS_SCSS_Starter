@@ -1,0 +1,11 @@
+$accent-color: lightblue;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    background: $accent-color;
+}
