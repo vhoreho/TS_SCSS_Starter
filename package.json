@@ -1,9 +1,11 @@
 {
   "devDependencies": {
     "@webpack-cli/generators": "^3.0.1",
+    "autoprefixer": "^10.4.13",
     "css-loader": "^6.7.3",
     "html-webpack-plugin": "^5.5.0",
     "mini-css-extract-plugin": "^2.7.2",
+    "postcss-loader": "^7.0.2",
     "prettier": "^2.8.3",
     "sass": "^1.57.1",
     "sass-loader": "^13.2.0",
@@ -24,5 +26,9 @@
     "build:prod": "webpack --mode=production --node-env=production",
     "watch": "webpack --watch",
     "serve": "webpack serve"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.6",
+    "bootstrap": "^5.2.3"
   }
 }
