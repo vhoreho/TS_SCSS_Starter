@@ -5,3 +5,25 @@
 body {
     min-height: 100vh;
 }
+
+.card {
+    cursor: pointer;
+    transition: all .3s ease;
+
+    &-link {
+        text-decoration: none;
+    }
+
+    &:hover {
+        background-color: $primary;
+        color: $light;
+
+        .title {
+            color: $light !important;
+        }
+
+        .card-link {
+            color: $light;
+        }
+    }
+}
