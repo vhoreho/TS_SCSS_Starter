@@ -9,6 +9,13 @@ body {
 .card {
     cursor: pointer;
     transition: all .3s ease;
+    height: 200px;
+    overflow: hidden;
+
+    .title {
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
 
     &-link {
         text-decoration: none;
